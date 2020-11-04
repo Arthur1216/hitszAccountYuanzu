@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">jumptonext</string>
+    <string-array name="tag1">
+        <item>爸爸</item>
+        <item>妈妈</item>
+        <item>儿子</item>
+    </string-array>
+</resources>

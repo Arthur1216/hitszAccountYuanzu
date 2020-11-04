@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/lv_datas"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:id="@+id/tv_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:onClick="onClick1"
+            android:text="back"
+            android:layout_toLeftOf="@id/year"/>
+
+
+        <Button
+            android:id="@+id/year"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="年度"
+            android:layout_toLeftOf="@id/month"
+            />
+
+        <Button
+            android:id="@+id/month"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/day"
+            android:text="月度" />
+
+        <Button
+            android:id="@+id/day"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:text="流水（日）"
+            android:layout_alignParentRight="true"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
